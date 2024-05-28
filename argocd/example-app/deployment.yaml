@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: argocd-example-app
-        image: hashicorp/http-echo:1.0
+        image: hashicorp/http-echo:latest
         args: ["-listen=:3000", "-text=1.0.0"]
         ports:
         - containerPort: 3000
